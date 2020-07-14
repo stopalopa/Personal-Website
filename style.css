@@ -1,0 +1,195 @@
+
+h2 {
+  font-size: 56px;
+}
+
+body {
+  background-color: #F8E5E5;
+  font-family: 'Merriweather', serif;
+  margin: 2em;
+}
+
+h1, h2, h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 64px;
+}
+
+a:hover {
+  color: #FA255E;
+}
+
+
+.jumbotron {
+  margin: 1em;
+}
+
+.jumbotron h1 {
+       color: #FA255E;
+       animation: 0.7s titleEntrance ease-in;
+       margin-top: 1em;
+       font-size: 60px;
+   }
+
+.jumbotron p {
+  margin: 2em auto 1.5em auto;
+  font-size: 22px;
+}
+
+.jumbotron a {
+    font-size: 2em;
+    color: #C39EA0;
+    margin: 1em 0.35em;
+    font-family: 'Heebo', sans-serif;
+}
+
+.jumbotron a:hover {
+    color: #FA255E;
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #C39EA0;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #FA255E;
+  text-decoration: none;
+}
+
+
+.project {
+    height: 300px;
+    max-width: 600px;
+    margin: auto auto 30px auto;
+}
+
+.project-container {
+    width: 100%;
+    height: 65%;
+    border: none;
+    position: relative;
+    display: block;
+}
+
+
+.project-overlay {
+    background-color: #FA255E;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+    .project-container:hover .project-overlay {
+        opacity: 0.75;
+        transition: 0.2s ease-in;
+        -webkit-transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+
+.project-cover {
+    background-color: #C39EA0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  .sleep-tracker {
+
+  }
+
+  .project-label {
+      background-color: #FFF;
+      color: #3D3D3D;
+      padding: 15px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+  }
+
+      .project-label h3 {
+          margin: 0 auto 0 auto;
+      }
+
+  .modal-header, .modal-body, .modal-footer {
+      border: none;
+  }
+
+  .modal-content {
+      margin: auto;
+      min-height: 100vh;
+      background-color: #F8E5E5;
+  }
+
+      .modal-content .close {
+          font-size: 2em;
+          color: #C39EA0;
+          opacity: 100%;
+      }
+
+          .modal-content .close:hover {
+              color: #FA255E;
+          }
+
+      .modal-content .modal-body {
+          text-align: center;
+      }
+
+      .modal-content p {
+        margin: 1.5em;
+      }
+
+      .modal-content h1 {
+          font-size: 60px;
+          color: #C39EA0;
+          margin: auto auto .3em auto;
+      }
+
+      .modal-content h2 {
+          font-size: 24px;
+          margin: 1em auto .5em auto;
+      }
+
+      .modal-content .insomnia {
+          width: 35%;
+          height: 35%;
+          align-content: center;
+          margin: 1em auto 1em auto;
+      }
+
+      .modal-content .sleep-app-img {
+        width: 50%;
+        height: auto;
+        margin: 2em;
+      }
+
+      .modal-content a {
+        text-decoration: none;
+        color: #C39EA0;
+      }
+
+      .modal-content a:hover {
+          color: #FA255E;
+          text-decoration: none;
+      }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
+
+  .modal-body .reading {
+    font-size: 24px;
+
+  }
