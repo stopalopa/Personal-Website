@@ -26,7 +26,6 @@ a:hover {
 .jumbotron h1 {
        color: #FA255E;
        animation: 0.7s titleEntrance ease-in;
-       margin-top: 1em;
        font-size: 60px;
    }
 
@@ -47,17 +46,9 @@ a:hover {
     text-decoration: none;
 }
 
-.navbar-custom .navbar-nav .nav-link {
-    color: #C39EA0;
+.headliner {
+  margin: 1em;
 }
-
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:focus .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: #FA255E;
-  text-decoration: none;
-}
-
 
 .project {
     height: 300px;
@@ -191,5 +182,11 @@ a:hover {
 
   .modal-body .reading {
     font-size: 24px;
+  }
 
+  .modal-content .sourdough-img {
+      width: 35%;
+      height: 35%;
+      align-content: center;
+      margin: 1.5em 2em;
   }

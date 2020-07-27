@@ -13,37 +13,22 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-sm navbar-custom">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="downloads/Resume-NatashaStopa.pdf" style="animation-delay: 0.2s">RESUME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:natasha.stopa@gmail.com" style="animation-delay: 0.6s">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <div class="jumbotron jumbotron-fluid" style="background-color: #F8E5E5;">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-12">
-            <h1> I'm Natasha. </h1>
-            <p>I love science, math and tech but I have a wide range of other interests.
-              I spend my free time outdoors. Hire me. </p>
+            <div class="headliner">
+              <h1> I'm Natasha. </h1>
+              <p>I love science, math and tech but I have a wide range of other interests.
+                I spend my free time outdoors. Hire me. </p>
+            </div>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-12">
             <div class="row justify-content-center">
-              <img src="cover_photo.jpg" width="200" height="150" alt="Photo of Natasha">
+              <img src="self_photo.jpg" width=50% height=50% alt="Photo of Natasha">
             </div>
             <div class="row justify-content-center">
+                            <a href=# target="_blank"><i class="fa fa-arrow-circle-down" style="animation-delay: 0.4s"></i></a>
               <a href="https://www.linkedin.com/in/natasha-stopa-82560462/" target="_blank"><i class="fa fa-linkedin-square icon-link"></i></a>
               <a href="https://twitter.com/stopamine" target="_blank"><i class="fa fa-twitter icon-link" aria-hidden="true"></i></a>
               <a href="https://github.com/stopalopa" target="_blank"><i class="fa fa-github icon-link" style="animation-delay: 0.4s"></i></a>
@@ -83,7 +68,7 @@
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4 project">
-          <button class="project-container" href="#" data-toggle="modal" data-target="#" data-backdrop="false">
+          <button class="project-container" href="#" data-toggle="modal" data-target="#sourdough" data-backdrop="false">
             <div class="project-overlay"></div>
             <div class="project-cover "></div>
           </button>
@@ -92,12 +77,12 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 project">
-          <button class="project-container" href="#" data-toggle="modal" data-target="#" data-backdrop="false">
+          <button class="project-container" href="#" data-toggle="modal" data-target="#gsoc" data-backdrop="false">
             <div class="project-overlay"></div>
             <div class="project-cover "></div>
           </button>
           <div class="project-label">
-            <h3>Jenkins Plugin Installation Manager</h3>
+            <h3>Google Summer of Code</h3>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 project">
@@ -244,7 +229,8 @@
         </p>
         <p>
           When an organisms with larger genomes are sequenced, the DNA sequence won't be revealed in one long strand.
-          The original DNA sequence is broken into pieces (<a href="https://en.wikipedia.org/wiki/Read_biology">reads</a>), which have to be put back together to uncover the original sequence.
+          The original DNA sequence is broken into pieces (<a href="https://en.wikipedia.org/wiki/Read_biology">reads</a>),
+          which have to be put back together to uncover the original sequence.
           <a href="https://en.wikipedia.org/wiki/Sequence_assembly">Assembly</a> is the process of putting these sequences back together.
           A high quality assembly is an assembly that accurately represents the original sequence.
         </p>
@@ -270,12 +256,11 @@
         <p>
           What is Nanopore data? This is the output of <a href="https://en.wikipedia.org/wiki/Nanopore_sequencing">nanopore sequencing technology</a>.
           This is a way to sequence DNA that results in much longer sequences.
-          These are beneficial because they contain more contextual information.
-          The downside of this type of sequencing technology is that it contains a lot of errors.
+          These are beneficial because they contain more contextual information; the downside of this type of sequencing technology is that it contains a lot of errors.
         </p>
 
         <p>
-          You can find the whole project <a href="https://etda.libraries.psu.edu/catalog/17798nzs208">here</a>.
+          You can find my thesis <a href="https://etda.libraries.psu.edu/catalog/17798nzs208">here</a>.
         </p>
       </div>
     </div>
@@ -296,8 +281,8 @@
           and this is one way I thought that I could help.
         </p>
         <p>
-          I've committed to <a href="https://www.crisistextline.org/become-a-volunteer/">volunteering</a> ~4hrs/week
-          to supporting people in crisis for the next year.
+          I've committed to <a href="https://www.crisistextline.org/become-a-volunteer/">volunteering</a> 200 hours,
+          or ~4hrs/week, to supporting people in crisis for the next year.
         </p>
           <img class="insomnia" src="crisis_counseling.png" alt="Crisis Text Line" />
         <p>
@@ -307,7 +292,69 @@
     </div>
   </div>
 
+  <div class="modal" id="sourdough" aria-labelledby="SourDoughModal" aria-hidden="true">
+    <div class="modal-content modal-dialog-scrollable">
+      <div class="modal-header border-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>Sour Dough</h1>
+        <h2>Pandemic Stress Baking</h2>
+        <p>
+          Meet Baby Olga, my delicious and industrious starter.
+        </p>
 
+          <img class="sourdough-img" src="starter_side.jpg" alt="Sourdough Starter" />
+          <img class="sourdough-img" src="starter_top.jpg" alt="Sourdough Starter" />
+
+
+        <p>
+          Baby Olga has been the start of many tasty carb-based treats.
+        </p>
+
+        <img class="sourdough-img" src="cinnamon_rolls.jpg" alt="Sourdough Starter" />
+        <p>
+        </p>
+        <img class="sourdough-img" src="bagels.jpg" alt="Sourdough Starter" />
+        <img class="sourdough-img" src="bread.jpg" alt="Sourdough Starter" />
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal" id="gsoc" aria-labelledby="GSoCModal" aria-hidden="true">
+    <div class="modal-content modal-dialog-scrollable">
+      <div class="modal-header border-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>Jenkins Plugin Installation Manager</h1>
+        <h2> A way to install plugins before starting a Jenkins instance </h2>
+        <p>
+          In the spring and summer of 2019, I completed <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> and
+          contributed to an open source project instead of doing a traditional internship.
+          My project involved creating <a href="https://www.jenkins.io/projects/gsoc/2019/plugin-installation-manager-tool-cli/">a new tool for plugin management in Jenkins</a>.
+        </p>
+        <p>
+          My contributions slowed down since last summer, but because it's open source,
+          you can see <a href="https://issues.jenkins-ci.org/browse/JENKINS-60202?jql=project%20%3D%20JENKINS%20AND%20status%20in%20(Resolved%2C%20Closed)%20AND%20component%20%3D%20plugin-installation-manager-tool">
+          discussions about the project</a>, <a href="https://gitter.im/jenkinsci/plugin-installation-manager-cli-tool"> how I interacted with my mentor and members of
+          the Jenkins community </a>, and <a href="https://github.com/jenkinsci/plugin-installation-manager-tool/graphs/contributors"> every line of code I wrote </a>.
+
+        </p>
+          In addition to getting experience with open source,
+          I also gained experience working remotely and with a distributed team of contributers.
+        </p>
+
+      </div>
+    </div>
+  </div>
 
 
 
