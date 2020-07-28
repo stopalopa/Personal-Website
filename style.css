@@ -1,6 +1,6 @@
-
 h2 {
   font-size: 56px;
+  margin: 1em;
 }
 
 body {
@@ -18,175 +18,185 @@ a:hover {
   color: #FA255E;
 }
 
-
 .jumbotron {
   margin: 1em;
 }
 
-.jumbotron h1 {
-       color: #FA255E;
-       animation: 0.7s titleEntrance ease-in;
-       font-size: 60px;
-   }
+  .jumbotron h1 {
+    color: #FA255E;
+    animation: 0.7s titleEntrance ease-in;
+    font-size: 60px;
+  }
 
-.jumbotron p {
-  margin: 2em auto 1.5em auto;
-  font-size: 22px;
-}
+  .jumbotron h2 {
+    margin-top: .5em;
+  }
 
-.jumbotron a {
+  .jumbotron p {
+    margin: 2em auto 1.5em auto;
+    font-size: 22px;
+  }
+
+  .jumbotron a {
     font-size: 2em;
     color: #C39EA0;
     margin: 1em 0.35em;
     font-family: 'Heebo', sans-serif;
-}
+  }
 
-.jumbotron a:hover {
-    color: #FA255E;
-    text-decoration: none;
-}
+    .jumbotron a:hover {
+      color: #FA255E;
+      text-decoration: none;
+    }
 
 .headliner {
   margin: 1em;
 }
 
+.self_img {
+  width: 55%;
+  height: 55%;
+}
+
+.projects {
+  margin: 0em 2em 0em 2em;
+}
+
 .project {
-    height: 300px;
-    max-width: 600px;
-    margin: auto auto 30px auto;
+  height: 300px;
+  max-width: 600px;
 }
 
 .project-container {
-    width: 100%;
-    height: 65%;
-    border: none;
-    position: relative;
-    display: block;
+  width: 75%;
+  height: 70%;
+  border: none;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #C39EA0;
+  transform: translate(-50%, -50%);
 }
 
-
-.project-overlay {
-    background-color: #FA255E;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  .project-container h3 {
+    color: black;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
 
-    .project-container:hover .project-overlay {
-        opacity: 0.75;
-        transition: 0.2s ease-in;
-        -webkit-transition: 0.2s ease-in;
-        cursor: pointer;
+    .project-container:hover h3 {
+      color: #FFF;
+      -webkit-transition: 0.2s ease-in;
     }
 
-.project-cover {
-    background-color: #C39EA0;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  .project-container:focus {
+    outline: none;
+  }
+
+.project-overlay {
+  background-color: #FA255E;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
-  .sleep-tracker {
 
+  .project-container:hover .project-overlay {
+    opacity: 0.75;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    cursor: pointer;
   }
 
-  .project-label {
-      background-color: #FFF;
-      color: #3D3D3D;
-      padding: 15px;
-      border-bottom-left-radius: 8px;
-      border-bottom-right-radius: 8px;
+.modal-header, .modal-body, .modal-footer {
+  border: none;
+}
+
+.modal-content {
+  margin: auto;
+  min-height: 100vh;
+  background-color: #F8E5E5;
+}
+
+  .modal-content .close {
+    font-size: 2em;
+    color: #C39EA0;
+    opacity: 100%;
   }
 
-      .project-label h3 {
-          margin: 0 auto 0 auto;
-      }
-
-  .modal-header, .modal-body, .modal-footer {
-      border: none;
+  .modal-content .close:hover {
+    color: #FA255E;
   }
 
-  .modal-content {
-      margin: auto;
-      min-height: 100vh;
-      background-color: #F8E5E5;
-  }
-
-      .modal-content .close {
-          font-size: 2em;
-          color: #C39EA0;
-          opacity: 100%;
-      }
-
-          .modal-content .close:hover {
-              color: #FA255E;
-          }
-
-      .modal-content .modal-body {
-          text-align: center;
-      }
-
-      .modal-content p {
-        margin: 1.5em;
-      }
-
-      .modal-content h1 {
-          font-size: 60px;
-          color: #C39EA0;
-          margin: auto auto .3em auto;
-      }
-
-      .modal-content h2 {
-          font-size: 24px;
-          margin: 1em auto .5em auto;
-      }
-
-      .modal-content .insomnia {
-          width: 35%;
-          height: 35%;
-          align-content: center;
-          margin: 1em auto 1em auto;
-      }
-
-      .modal-content .sleep-app-img {
-        width: 50%;
-        height: auto;
-        margin: 2em;
-      }
-
-      .modal-content a {
-        text-decoration: none;
-        color: #C39EA0;
-      }
-
-      .modal-content a:hover {
-          color: #FA255E;
-          text-decoration: none;
-      }
-
-  ul {
-    list-style-type: none;
+  .modal-content .modal-body {
     text-align: center;
-    padding: 0;
   }
 
+  .modal-content p {
+    margin: 1.5em;
+  }
 
-  .modal-body .reading {
+  .modal-content h1 {
+    font-size: 60px;
+    color: #C39EA0;
+    margin: auto auto .3em auto;
+  }
+
+  .modal-content h2 {
     font-size: 24px;
+    margin: 1em auto .5em auto;
+  }
+
+  .modal-content a {
+    text-decoration: none;
+    color: #C39EA0;
+  }
+
+    .modal-content a:hover {
+      color: #FA255E;
+      text-decoration: none;
+    }
+
+  .modal-content .insomnia {
+    width: 35%;
+    height: 35%;
+    align-content: center;
+    margin: 1em auto 1em auto;
+  }
+
+  .modal-content .sleep-app-img {
+    width: 50%;
+    height: auto;
+    margin: 2em;
   }
 
   .modal-content .sourdough-img {
-      width: 35%;
-      height: 35%;
-      align-content: center;
-      margin: 1.5em 2em;
+    width: 35%;
+    height: 35%;
+    align-content: center;
+    margin: 1.5em 2em;
   }
+
+  .modal-content .gsoc-img {
+    width: 45%;
+    height: 45%;
+    align-content: center;
+    margin: 1.5em 2em;
+  }
+
+.modal-body .reading {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
