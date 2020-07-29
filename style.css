@@ -140,13 +140,13 @@ a:hover {
   }
 
   .modal-content p {
-    margin: 1.5em;
+    margin: 1.5em 6em 1.5em 6em;
   }
 
   .modal-content h1 {
     font-size: 60px;
     color: #C39EA0;
-    margin: auto auto .3em auto;
+    margin: auto 1em .3em 1em;
   }
 
   .modal-content h2 {
@@ -192,7 +192,8 @@ a:hover {
   }
 
 .modal-body .reading {
-  font-size: 24px;
+  font-size: 25px;
+  margin: 5em;
 }
 
 ul {
